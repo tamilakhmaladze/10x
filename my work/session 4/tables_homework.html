@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tables</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 96%;
+            margin-bottom: 20px;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        tfoot td{
+            font-weight: bold;
+            background-color: #f9f9f9;
+
+        }
+    </style>
+
+
+
+    </style>
+</head>
+<h1>Lesson 4_Tables
+</h1>
+<body>
+<!--first table is list of participants-->
+    <table border="1" >
+        <h2>Part 1: Basic Table </h2>
+        <caption>List of participants</caption>
+        <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Email</th>
+                </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Archil</td>
+                <td>23</td>
+                <td>Archil.23@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Nukri</td>
+                <td>35</td>
+                <td>Nukri.35@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Dato</td>
+                <td>18</td>
+                <td>Dato.18@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Natalia</td>
+                <td>28</td>
+                <td>Natalia.28@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Malvina</td>
+                <td>46</td>
+                <td>Malvina.46@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+<h2>Part 2: Weekly activity schedule</h2>
+<caption>Merging cells</caption>
+<!--second table is weekly activity-->
+    <table border="1">
+        <thead> 
+            <tr>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+        </tr>
+        </thead>
+       <tbody>
+            <tr>
+                <td>Morning</td>
+                <td rowspan="3">Yoga</td>
+                <td colspan="3">Team meeting</td>
+                <td>Meeting with clients</td>
+                <td rowspan="3">Free time</td>
+                <td rowspan="3">Free time</td>
+                
+
+            </tr>
+            <tr>
+                <td>Afternoon</td>
+                <td>Project work</td>
+                <td>meeting with clients</td>
+                <td>Workshop</td>
+                <td>Dinner</td>
+            </tr>
+            <tr>
+                <td>Evening</td>
+                <td colspan="4">Gym</td>
+                
+            </tr>
+
+
+       </tbody>
+    </table>
+    <!--third table is shopping cart-->
+    <h2>Part 3: Shopping cart table</h2>
+    
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Quantity</th>
+                <th>Price per item</th>
+                <th>Total price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Phone</td>
+                <td>4</td>
+                <td>250</td>
+                <td>1000</td>
+            </tr>
+            <tr>
+                <td>Laptop</td>
+                <td>1</td>
+                <td>900</td>
+                <td>900</td>
+            </tr>
+            <tr>
+                <td>Ipad</td>
+                <td>2</td>
+                <td>725</td>
+                <td>1450</td>
+            </tr>
+            <tr>
+                <td>Headphones</td>
+                <td>8</td>
+                <td>50</td>
+                <td>400</td>
+            </tr>
+
+        </tbody>
+        <tfoot >
+            <tr>
+                <td>Sum</td>
+                <td></td>
+                <td></td>
+                <td>3750</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
+
+<!--if anyone is reading this just know that i doing this homework at 3am and if there is any problem just unsee it. if you are  Nukri thank you for reading this nonesense-->
